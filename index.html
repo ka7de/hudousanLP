@@ -7,12 +7,12 @@
     <!-- <link rel="stylesheet" type="text/css" href="https://revive-promo.com/p/format_css?item_id=IOPKTBM7&format=div&form_align=&label_align=&radio_float=&checkbox_float=&label_width=0&input_width=0&theme_name=3_7&ver=3" /> -->
     <!-- <link rel="stylesheet" type="text/css" href="https://revive-promo.com/p/mobile_css?item_id=IOPKTBM7&format=div&form_align=&label_align=&radio_float=&checkbox_float=&label_width=0&input_width=0&theme_name=3_7&ver=3" /> -->
     <link rel="stylesheet" href="https://use.typekit.net/zmn0yhp.css">
-    <link rel="stylesheet" href="https://ka7de.github.io/hudousanLP/style.css"/>
+    <link rel="stylesheet" href="css/style.css">
     <title>初めてのシェアハウス投資図解レポート</title>
 </head>
 <body>
     <header id="header">
-        <div class="header-inner wrapper">
+        <div class="header-inner wrapper visible-pc">
             <div class="header-text-area">
                 <p class="header-intro">
                     <span class="orange">"繋がり"</span>
@@ -102,11 +102,98 @@
                 <img src="img/report.png" alt="レポート">
             </div>
         </div>
+        <div class="header-inner-responsive wrapper visible-phone">
+            <div class="header-text-area-responsive">
+                <p class="header-intro-responsive">
+                    <span class="orange-responsive">"繋がり"</span>
+                    を求める時代の<br>
+                    新しい不動産投資法
+                    <img src="img/profile.png" alt="プロフィール画像">
+                </p>
+                <div class="header-title-flex">
+                    <h1 class="header-title-responsive">初めての</h1>
+                    <h1 class="header-title-responsive">シェアハウス投資</h1>
+                    <h1 class="header-title-responsive">図解レポート</h1>
+                </div>
+            </div>
+            <div class="header-report-img-responsive">
+                <img src="img/report.png" alt="レポート">
+            </div>
+            <div class="content_form">
+                <form action="https://revive-promo.com/p/r/IOPKTBM7" enctype="multipart/form-data" id="UserItemForm" class="myForm" method="post" accept-charset="utf-8">
+                    <input type="hidden" name="_method" value="POST"/>
+                    
+            
+                    <!-- メールアドレス -->
+                    <div class="input text input_unit  required">
+                        <div class="my_column my_left">
+                            <div class="label_frame">
+                                <label for="Usermail" class="form_input_label  required">メールアドレス</label>
+                            </div>
+                        </div>
+                        <div class="my_column my_right">
+                            <input name="data[User][mail]" id="Usermail" value="" class=" required" type="text" placeholder="メールアドレスをご入力ください"/>
+                        </div>
+                    </div>
+                    <input name="data[User][free1]" type="hidden" id="Userfree1" value="サンプルテキスト" />
+            
+                    <!-- 画像認証 -->
+                            
+            
+                    <!-- 確認ボタン -->
+                    <div class="submit form_input_submit">
+                        <input type="submit" value="無料テキストを受け取る"/>
+                    </div>
+                    
+                    <input type="hidden" id="server_url" value="https://revive-promo.com/"/>
+                    
+                <!-- ▼リファラ -->
+                <input type="hidden" name="data[User][referer_form_url]" value="" class="UserRefererFormUrl"/>
+                <input type="hidden" name="data[User][referer_url]" value="" class="UserRefererUrl"/>
+            
+                <script type="text/javascript">
+            //<!--
+                if (document.referrer.length !=0 ){
+                    if (document.getElementsByClassName("UserRefererUrl"))
+                    {
+                    var user_referer_url = document.getElementsByClassName("UserRefererUrl");
+                    for (var i = 0; i < user_referer_url.length; i++)
+                    {
+                        user_referer_url[i].value = document.referrer;
+                    }
+                    }
+                    else if (document.getElementById("UserRefererUrl"))
+                    {
+                        document.getElementById("UserRefererUrl").value = document.referrer;
+                    }
+                }
+            
+            
+                if (document.getElementsByClassName("UserRefererFormUrl"))
+                {
+                    var user_referer_form_url = document.getElementsByClassName("UserRefererFormUrl");
+                    for (var i = 0; i < user_referer_form_url.length; i++)
+                    {
+                        user_referer_form_url[i].value = location.href;
+                    }
+                }
+                else if (document.getElementById("UserRefererFormUrl"))
+                {
+                    document.getElementById("UserRefererFormUrl").value = location.href;
+                }
+            //-->
+                </script>
+                <!-- ▲リファラ -->
+            
+            </form>
+            </div>
+        </div>
     </header>
 
     <section id="about">
         <h2 class="en-title">ABOUT</h2>
-        <h1 class="ja-title">この<span class="orange">無料レポート</span>の内容は・・</h1>
+        <h1 class="ja-title visible-pc">この<span class="orange">無料レポート</span>の内容は・・</h1>
+        <h1 class="ja-title visible-phone">この<span class="orange">無料レポート</span>の<br>内容は・・</h1>
         <div class="about-flex-area wrapper">
             <div class="about-flex">
                 <div class="about-flex-text"> 
@@ -193,17 +280,25 @@
             </div>
             <div class="about-flex-example">
                 <div class="flex-example-item">
-                    <h3 class="flex-example-title title1">
+                    <h3 class="flex-example-title title1 visible-pc">
                         シェアハウス物件の
                     </h3><br>
-                    <h3 class="flex-example-title title2">
+                    <h3 class="flex-example-title title2 visible-pc">
                         劇的ビフォー&アフター
+                    </h3>
+                    <h3 class="flex-example-title-responsive visible-phone">
+                        シェアハウス物件の劇的ビフォー&アフター
                     </h3>
                     <p class="add-text">(驚かないでください)</p>
                     <img src="img/1364927.png" alt="">
-                    <p class="flex-example-desc">
+                    <p class="flex-example-desc visible-pc">
                         不動産投資で利益を出すには<span class="bold marker">「入り口が9割」</span>です。
                         取得した物件をリノベして貸し出すのですが、<span class="marker">工事前と工事後の変化</span>を解説しました。<br>
+                        驚かないでください。
+                    </p>
+                    <p class="flex-example-desc visible-phone">
+                        不動産投資で利益を出すには<span class="bold marker">「入り口が9割」</span>です。
+                        取得した物件をリノベして貸し出すのですが、<span class="marker">工事前と工事後の変化</span>を解説しました。
                         驚かないでください。
                     </p>
                 </div>
@@ -260,7 +355,7 @@
         <h2 class="en-title prof">SERVICE</h2>
         <h1 class="ja-title">ご提供サービスの紹介</h1>
         <div class="service-inner wrapper">
-            <dl class="service-inner-table1">
+            <dl class="service-inner-table1  visible-pc">
                 <dt class="table1-category">商品名</dt>
                 <dd class="table1-text">無料レポート「初めてのシェアハウス投資 図解レポート」</dd>
                 <dt class="table1-category">価格</dt>
@@ -270,6 +365,19 @@
                     シェアハウスの需要などを解説した図解レポートです。
                 </dd>
             </dl>
+            <dl class="service-inner-table1-responsive visible-phone">
+                <dt class="table1-category">商品名</dt>
+                <dd class="table1-text-responsive">無料レポート<br>「初めてのシェアハウス投資 図解レポート」</dd>
+                <dt class="table1-category">価格</dt>
+                <dd class="table1-text-responsive">無料(0円)</dd>
+                <dt class="table1-category">内容</dt>
+                <dd class="table1-text">
+                    シェアハウス投資の概要、実際に稼働している<br>
+                    シェアハウスの事例、データから参照した<br>
+                    シェアハウスの需要などを解説した<br>
+                    図解レポートです。
+                </dd>
+            </dl>
             <div class="arrow-img">
                 <img src="img/三角形 2 のコピー 2.png" alt="">
                 <img src="img/三角形 2 のコピー 2.png" alt="">
@@ -277,23 +385,38 @@
             </div>
         </div>
         <h2 class="en-title">SERVICE</h2>
-        <h1 class="ja-title">これからご提供予定のサービス</h1>
+        <h1 class="ja-title visible-pc">これからご提供予定のサービス</h1>
+        <h1 class="ja-title visible-phone">これから<br>ご提供予定のサービス</h1>
         <div class="service-inner wrapper">
-            <dl class="service-inner-table2">
+            <dl class="service-inner-table2 visible-pc">
                 <dt class="table2-category">商品名</dt>
                 <dd class="table2-text">"社会貢献型"のシェアハウス投資 WEBセミナー</dd>
                 <dt class="table2-category">価格</dt>
                 <dd class="table2-text">無料(0円)</dd>
                 <dt class="table2-category">内容</dt>
-                <dd class="table2-text">シェアハウス投資で失敗しないための物件選びから入居者募集、出口戦略まで解説。
+                <dd class="table2-text">シェアハウス投資で失敗しないための物件選びから入居者募集、出口戦略までを解説。
                     お好きな日程から自由に選択し、ご自宅からパソコンやスマホで参加できるWEBセミナーにご招待します。
+                </dd>
+            </dl>
+            <dl class="service-inner-table2 visible-phone">
+                <dt class="table2-category">商品名</dt>
+                <dd class="table2-text">"社会貢献型"のシェアハウス投資 WEBセミナー</dd>
+                <dt class="table2-category">価格</dt>
+                <dd class="table2-text-responsive">無料(0円)</dd>
+                <dt class="table2-category">内容</dt>
+                <dd class="table2-text">
+                    シェアハウス投資で失敗しないための<br>
+                    物件選びから入居者募集、出口戦略までを<br>解説。
+                    お好きな日程から自由に選択し、<br>
+                    ご自宅からパソコンやスマホで参加できる<br>
+                    WEBセミナーにご招待します。
                 </dd>
             </dl>
         </div>
     </section>
 
     <header id="header2">
-        <div class="header-inner wrapper">
+        <div class="header-inner wrapper visible-pc">
             <div class="header-text-area">
                 <p class="header-intro">
                     <span class="orange">"繋がり"</span>
@@ -381,6 +504,92 @@
             </div>
             <div class="header-report-img">
                 <img src="img/report.png" alt="レポート">
+            </div>
+        </div>
+        <div class="header-inner-responsive wrapper visible-phone">
+            <div class="header-text-area-responsive">
+                <p class="header-intro-responsive">
+                    <span class="orange-responsive">"繋がり"</span>
+                    を求める時代の<br>
+                    新しい不動産投資法
+                    <img src="img/profile.png" alt="プロフィール画像">
+                </p>
+                <div class="header-title-flex">
+                    <h1 class="header-title-responsive">初めての</h1>
+                    <h1 class="header-title-responsive">シェアハウス投資</h1>
+                    <h1 class="header-title-responsive">図解レポート</h1>
+                </div>
+            </div>
+            <div class="header-report-img-responsive">
+                <img src="img/report.png" alt="レポート">
+            </div>
+            <div class="content_form">
+                <form action="https://revive-promo.com/p/r/IOPKTBM7" enctype="multipart/form-data" id="UserItemForm" class="myForm" method="post" accept-charset="utf-8">
+                    <input type="hidden" name="_method" value="POST"/>
+                    
+            
+                    <!-- メールアドレス -->
+                    <div class="input text input_unit  required">
+                        <div class="my_column my_left">
+                            <div class="label_frame">
+                                <label for="Usermail" class="form_input_label  required">メールアドレス</label>
+                            </div>
+                        </div>
+                        <div class="my_column my_right">
+                            <input name="data[User][mail]" id="Usermail" value="" class=" required" type="text" placeholder="メールアドレスをご入力ください"/>
+                        </div>
+                    </div>
+                    <input name="data[User][free1]" type="hidden" id="Userfree1" value="サンプルテキスト" />
+            
+                    <!-- 画像認証 -->
+                            
+            
+                    <!-- 確認ボタン -->
+                    <div class="submit form_input_submit">
+                        <input type="submit" value="無料テキストを受け取る"/>
+                    </div>
+                    
+                    <input type="hidden" id="server_url" value="https://revive-promo.com/"/>
+                    
+                <!-- ▼リファラ -->
+                <input type="hidden" name="data[User][referer_form_url]" value="" class="UserRefererFormUrl"/>
+                <input type="hidden" name="data[User][referer_url]" value="" class="UserRefererUrl"/>
+            
+                <script type="text/javascript">
+            //<!--
+                if (document.referrer.length !=0 ){
+                    if (document.getElementsByClassName("UserRefererUrl"))
+                    {
+                    var user_referer_url = document.getElementsByClassName("UserRefererUrl");
+                    for (var i = 0; i < user_referer_url.length; i++)
+                    {
+                        user_referer_url[i].value = document.referrer;
+                    }
+                    }
+                    else if (document.getElementById("UserRefererUrl"))
+                    {
+                        document.getElementById("UserRefererUrl").value = document.referrer;
+                    }
+                }
+            
+            
+                if (document.getElementsByClassName("UserRefererFormUrl"))
+                {
+                    var user_referer_form_url = document.getElementsByClassName("UserRefererFormUrl");
+                    for (var i = 0; i < user_referer_form_url.length; i++)
+                    {
+                        user_referer_form_url[i].value = location.href;
+                    }
+                }
+                else if (document.getElementById("UserRefererFormUrl"))
+                {
+                    document.getElementById("UserRefererFormUrl").value = location.href;
+                }
+            //-->
+                </script>
+                <!-- ▲リファラ -->
+            
+            </form>
             </div>
         </div>
     </header>
