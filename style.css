@@ -37,7 +37,7 @@ a{
 /* header */
 #header{
     height:700px;
-    background-image:url(../img/長方形\ 1.png);
+    background-image:url(./img/長方形\ 1.png);
     background-size:cover;
     background-position:center;
 }
@@ -404,7 +404,7 @@ a{
 
 /* profile */
 #profile{
-    background:url(../img/sec2-bg.png);
+    background:url(./img/sec2-bg.png);
     background-size:cover;
     background-position:top center;
 }
@@ -572,7 +572,7 @@ a{
 /* header2 */
 #header2{
     height:700px;
-    background-image:url(../img/長方形\ 2.png);
+    background-image:url(./img/長方形\ 2.png);
     background-size:cover;
     background-position:center;
 }
@@ -603,7 +603,7 @@ a{
     font-size:14px;
 }
 
-@media (max-width:750px){
+@media (max-width:375px){
     .visible-pc{
         display:none;
     }
@@ -620,7 +620,7 @@ a{
 
     #header{
         height:1300px;
-        background:url(../img/長方形\ 1_responsive.png);
+        background:url(./img/長方形\ 1_responsive.png);
         background-size:cover;
         background-position:center;
     }
@@ -748,6 +748,6 @@ a{
 
     #header2{
         height:1300px;
-        background-image:url(../img/長方形\ 2-レスポンシブ.png);
+        background-image:url(./img/長方形\ 2-レスポンシブ.png);
     }
 }
